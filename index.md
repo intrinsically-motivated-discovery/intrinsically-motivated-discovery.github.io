@@ -59,6 +59,6 @@ Visualisation of the learned goal spaces with the IMGEP-OGL and IMGEP-HGS varian
 <iframe width="720" height="405" src="https://www.youtube.com/embed/mpvDazf1lPo" frameborder="0" allowfullscreen></iframe>
 
 * * *
-## Aknowledgments
+## Acknowledgements
 We would like to thank Bert Chan for the valuable discussions and for providing the source code of the Lenia System. 
 
