@@ -1,1 +1,6 @@
+title: Intrinsically Motivated Exploration for Automated Discovery of Patterns in Morphogenetic Systems
+logo: /assets/media/image/logo.png
+description: We present a novel exploration algorithm that can autonomously discover structures and patterns in high-dimensional complex systems.
+show_downloads: false
+google_analytics:
 theme: jekyll-theme-minimal
