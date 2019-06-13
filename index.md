@@ -19,7 +19,7 @@ Our results exemplify the ability of IMGEPs to aid the discovery of novel struct
 
 * * *
 ##  Intrinsically Motivated Goal Exploration Processes (IMGEP)
-![IMGEP](./assets/media/image/png/imgep_overview.png)
+![IMGEP](https://raw.githubusercontent.com/intrinsically-motivated-discovery/intrinsically-motivated-discovery.github.io/master/assets/media/image/png/imgep_overview.png)
 
 
 * * *
@@ -42,16 +42,16 @@ Explore the program in javascript: <small>https://chakazul.github.io/Lenia/JavaS
 
 
 |Diversity in Parameter Space                                  | Diversity in Statistic Space                                  |
-|![](./assets/media/image/png/diversity_runparamspace_all.png) | ![](./assets/media/image/png/diversity_statisticspace_all.png)|
+|![](./assets/media/image/png/diversity_runparamspace_all.png) | ![](https://raw.githubusercontent.com/intrinsically-motivated-discovery/intrinsically-motivated-discovery.github.io/master/assets/media/assets/media/image/png/diversity_statisticspace_all.png)|
 
 | Statistic Space Diversity for Animals                             |  Statistic Space Diversity for Non-Animals                        |
-|![](./assets/media/image/png/diversity_statisticspace_animals.png) | ![](./assets/media/image/png/diversity_statisticspace_animals.png)|
+|![](./assets/media/image/png/diversity_statisticspace_animals.png) | ![](https://raw.githubusercontent.com/intrinsically-motivated-discovery/intrinsically-motivated-discovery.github.io/master/assets/media/image/png/diversity_statisticspace_animals.png)|
 
 
 
 ### Example of discovered patterns
-![](./assets/media/image/png/imgep_hgs_discoveries.png)
-![](./assets/media/image/png/imgep_ogl_discoveries.png)
+![](https://raw.githubusercontent.com/intrinsically-motivated-discovery/intrinsically-motivated-discovery.github.io/master/assets/media/image/png/imgep_hgs_discoveries.png)
+![](https://raw.githubusercontent.com/intrinsically-motivated-discovery/intrinsically-motivated-discovery.github.io/master/assets/media/image/png/imgep_ogl_discoveries.png)
 
 ### Visualisation of the learned goal spaces
 Visualisation of the learned goal spaces with the IMGEP-OGL and IMGEP-HGS variants
