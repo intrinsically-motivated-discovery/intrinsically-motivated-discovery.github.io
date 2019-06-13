@@ -18,47 +18,68 @@ Moreover, the online learned goal spaces allow to successfully discover interest
 Our results exemplify the ability of IMGEPs to aid the discovery of novel structures and patterns in complex systems. We are optimistic that their application will aid the understanding and discovery of new knowledge in various domains of science and engineering.
 
 * * *
-##  Intrinsically Motivated Goal Exploration Processes (IMGEP)
-![IMGEP](https://raw.githubusercontent.com/intrinsically-motivated-discovery/intrinsically-motivated-discovery.github.io/master/assets/media/image/png/imgep_overview.png)
+
+More details can be found in the submission version of the paper for NeurIPS 2019: [Download the paper](./assets/media/paper/Automated_Discovery.pdf).
+
+This page provides further information about:
+ * Lenia, the target system used for the experiments
+ * Examples of patterns that could be identified with help of IMGEPs
+ * A video of our software to visualize the identifed patterns and goal spaces
+
+Please note that this page is currently under construction and more content will come soon!
+
+[comment]: # ##  Intrinsically Motivated Goal Exploration Processes (IMGEP)
+[comment]: # ![IMGEP](https://raw.githubusercontent.com/intrinsically-motivated-discovery/intrinsically-motivated-discovery.github.io/master/assets/media/image/png/imgep_overview.png)
 
 
 * * *
-## Studied system: a continuous cellular automaton (Lenia)
+## Target system: Lenia - a continuous cellular automaton
 Lenia [[arXiv]](https://arxiv.org/abs/1812.05433) is a continuous cellular automaton similar to Conway's Game of Life.
+
+The following video by its creator shows possible patterns that can be generated with Lenia:
 
 <iframe width="720" height="405" src="https://www.youtube.com/embed/iE46jKYcI4Y" frameborder="0" allowfullscreen></iframe>
 <br>
 <br>
 <a href="https://chakazul.github.io/Lenia/JavaScript/Lenia.html"> 
-Explore the program in javascript: <small>https://chakazul.github.io/Lenia/JavaScript/Lenia.html</small> ![lenia javascript program link](https://raw.githubusercontent.com/Chakazul/Lenia/master/Screencap/JavaScript.png) </a>
+Explore Lenia online: <small>https://chakazul.github.io/Lenia/JavaScript/Lenia.html</small> ![lenia javascript program link](https://raw.githubusercontent.com/Chakazul/Lenia/master/Screencap/JavaScript.png) </a>
 
-* * *
-## Learning of Goal Spaces via Online Representation Learning
+[comment]: # * * *
+[comment]: # ## Learning of Goal Spaces via Online Representation Learning
 
 * * *
 ## Discoveries
 
-### Diversity of explored patterns
-
+The diversity, measured in number of explored bins in the parameter and a statistic space, shows that the IMGEP approaches are able to find a higher diversity of patterns although a random paramter search has a higher diversity in the parameter space.
 
 |Diversity in Parameter Space                                  | Diversity in Statistic Space                                  |
-|![](./assets/media/image/png/diversity_runparamspace_all.png) | ![](https://raw.githubusercontent.com/intrinsically-motivated-discovery/intrinsically-motivated-discovery.github.io/master/assets/media/assets/media/image/png/diversity_statisticspace_all.png)|
+|![](./assets/media/image/png/diversity_runparamspace_all.png) | ![](./assets/media/image/png/diversity_statisticspace_all.png)|
 
 | Statistic Space Diversity for Animals                             |  Statistic Space Diversity for Non-Animals                        |
-|![](./assets/media/image/png/diversity_statisticspace_animals.png) | ![](https://raw.githubusercontent.com/intrinsically-motivated-discovery/intrinsically-motivated-discovery.github.io/master/assets/media/image/png/diversity_statisticspace_animals.png)|
+|![](./assets/media/image/png/diversity_statisticspace_animals.png) | ![](./assets/media/image/png/diversity_statisticspace_animals.png)|
 
 
 
-### Example of discovered patterns
+[comment]: # ### Example of discovered patterns
+
+The following two figures illustrate the ratio of identified pattern classes (animal, non-animal, dead) for two IMGEP algorithms and shows some examples for each class.
+The first (IMGEP-HGS) uses a hand-defined goal space and can find many non-animal patterns.
+The second (IMGEP-OGL) has a goal space which was learned via a variational autoencoder during the exploration and is able to find more animals.
+
 ![](https://raw.githubusercontent.com/intrinsically-motivated-discovery/intrinsically-motivated-discovery.github.io/master/assets/media/image/png/imgep_hgs_discoveries.png)
+
+
 ![](https://raw.githubusercontent.com/intrinsically-motivated-discovery/intrinsically-motivated-discovery.github.io/master/assets/media/image/png/imgep_ogl_discoveries.png)
 
+
 ### Visualisation of the learned goal spaces
-Visualisation of the learned goal spaces with the IMGEP-OGL and IMGEP-HGS variants
+
+The results of the exploration can be visualized by a two dimensional reduction of the goal space.
+The follwing video shows the visualization for the IMGEP-OGL and IMGEP-HGS results.
 
 <iframe width="720" height="405" src="https://youtube.com/embed/J_6ULBbAYOA" frameborder="0" allowfullscreen></iframe>
 
 * * *
-## Acknowledgements
-We would like to thank Bert Chan for the valuable discussions and for providing the source code of the Lenia System. 
+## Acknowledgement
+We would like to thank Bert Chan for the valuable discussions and for providing the source code of Lenia. 
 
