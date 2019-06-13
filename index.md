@@ -56,7 +56,7 @@ Explore the program in javascript: <small>https://chakazul.github.io/Lenia/JavaS
 ### Visualisation of the learned goal spaces
 Visualisation of the learned goal spaces with the IMGEP-OGL and IMGEP-HGS variants
 
-<iframe width="720" height="405" src="https://www.youtube.com/embed/mpvDazf1lPo" frameborder="0" allowfullscreen></iframe>
+<iframe width="720" height="405" src="https://youtube.com/embed/J_6ULBbAYOA" frameborder="0" allowfullscreen></iframe>
 
 * * *
 ## Acknowledgements
