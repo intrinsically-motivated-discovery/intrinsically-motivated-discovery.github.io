@@ -90,7 +90,7 @@ The diversity, measured in number of explored bins in the parameter and a statis
 |![](./assets/media/image/png/diversity_runparamspace_all.png) | ![](./assets/media/image/png/diversity_statisticspace_all.png)|
 
 | Statistic Space Diversity for Animals                             |  Statistic Space Diversity for Non-Animals                        |
-|![](./assets/media/image/png/diversity_statisticspace_animals.png) | ![](./assets/media/image/png/diversity_statisticspace_animals.png)|
+|![](./assets/media/image/png/diversity_statisticspace_animals.png) | ![](./assets/media/image/png/diversity_statisticspace_nonanimals.png)|
 
 
 
