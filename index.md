@@ -106,6 +106,11 @@ The second (IMGEP-OGL) has a goal space which was learned via a variational auto
 ![](https://raw.githubusercontent.com/intrinsically-motivated-discovery/intrinsically-motivated-discovery.github.io/master/assets/media/image/png/imgep_ogl_discoveries.png)
 
 
+
+The following video shows some example patterns that have been discovered automatically during one exploration experiment with the IMGEP-OGL algorithm:
+<iframe width="720" height="405" src="https://youtube.com/embed/ovhzWGu7aus" frameborder="0" allowfullscreen></iframe>
+
+
 #### Visualisation of Learned Goal Spaces
 
 The results of the exploration can be visualized by a two-dimensional reduction of the goal space.
