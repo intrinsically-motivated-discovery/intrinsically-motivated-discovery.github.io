@@ -108,7 +108,7 @@ The second (IMGEP-OGL) has a goal space which was learned via a variational auto
 
 
 The following video shows some example patterns that have been discovered automatically during one exploration experiment with the IMGEP-OGL algorithm:
-<iframe width="720" height="405" src="https://youtube.com/embed/ovhzWGu7aus" frameborder="0" allowfullscreen></iframe>
+<iframe width="720" height="405" src="https://youtube.com/embed/qxxs_Sga1xQ" frameborder="0" allowfullscreen></iframe>
 
 
 #### Visualisation of Learned Goal Spaces
@@ -116,7 +116,7 @@ The following video shows some example patterns that have been discovered automa
 The results of the exploration can be visualized by a two-dimensional reduction of the goal space.
 The following video shows the visualization for the IMGEP-OGL and IMGEP-HGS results.
 
-<iframe width="720" height="405" src="https://youtube.com/embed/J_6ULBbAYOA" frameborder="0" allowfullscreen></iframe>
+<iframe width="720" height="405" src="https://youtube.com/embed/oMh2CGb-86M" frameborder="0" allowfullscreen></iframe>
 
 * * *
 ### Acknowledgement
