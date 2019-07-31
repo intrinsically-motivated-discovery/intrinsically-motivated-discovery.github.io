@@ -3,7 +3,7 @@ layout: default
 ---
 ## Intrinsically Motivated Exploration for Automated Discovery of Patterns in Morphogenetic Systems
 
-[[Download the Paper]](./assets/media/paper/Automated_Discovery.pdf)
+[[Download the Paper]](./assets/media/paper/Automated_Discovery.pdf)      [[Download the Source Code]](./assets/media/paper/source.zip)
 {: style="color:gray; font-size: 150%; text-align: center;"}
 
 Intrinsically motivated goal exploration processes (IMGEPs) were shown to enable autonomous agents to efficiently explore and map the diversity of the effects they can produce on their environment.
