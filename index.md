@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-## Intrinsically Motivated Exploration for Automated Discovery of Patterns in Morphogenetic Systems
+## Intrinsically Motivated Discovery of Diverse Patterns in Self-Organizing Systems
 
 [[Download the Paper]](./assets/media/paper/Automated_Discovery.pdf)  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  [[Download the Source Code]](https://www.dropbox.com/s/imwbgo3ytiyz0v6/source.zip?dl=0)
 {: style="color:gray; font-size: 150%; text-align: center;"}
