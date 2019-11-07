@@ -118,6 +118,9 @@ The following video shows the visualization for the IMGEP-OGL and IMGEP-HGS resu
 
 <iframe width="720" height="405" src="https://youtube.com/embed/oMh2CGb-86M" frameborder="0" allowfullscreen></iframe>
 
+<a href="https://projector.tensorflow.org/?config=https://raw.githubusercontent.com/intrinsically-motivated-discovery/intrinsically-motivated-discovery.github.io/master/assets/media/tensorboard/projector_config.json">
+Explore the results online: <small> https://projector.tensorflow.org/?config=https://raw.githubusercontent.com/intrinsically-motivated-discovery/intrinsically-motivated-discovery.github.io/master/assets/media/tensorboard/projector_config.json </small> ![tensorboard link](https://raw.githubusercontent.com/intrinsically-motivated-discovery/intrinsically-motivated-discovery.github.io/master/assets/media/tensorboard/000000/IMGEP-OGL/sprite.png) </a>
+
 * * *
 ### Acknowledgement
 We would like to thank Bert Chan for the valuable discussions and for providing the source code of Lenia. 
