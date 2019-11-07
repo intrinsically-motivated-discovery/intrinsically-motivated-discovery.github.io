@@ -6,20 +6,9 @@ layout: default
 [[Download the Paper]](./assets/media/paper/Automated_Discovery.pdf)  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  [[Download the Source Code]](https://www.dropbox.com/s/imwbgo3ytiyz0v6/source.zip?dl=0)
 {: style="color:gray; font-size: 150%; text-align: center;"}
 
-Intrinsically motivated goal exploration processes (IMGEPs) were shown to enable autonomous agents to efficiently explore and map the diversity of the effects they can produce on their environment.
-With IMGEPs, agents self-define their own experiments by imagining goals, then try to achieve them by leveraging their past discoveries.
-Progressively they learn which goals are achievable and which are not.
-IMGEPs were shown to enable efficient discovery and learning of diverse repertoires of skills in high-dimensional robots.
-
-We show that the IMGEP framework can also be used in an entirely different application area: automated discovery of self-organized patterns in complex morphogenetic systems.
-We also introduce a new IMGEP algorithm where goal representations are learned online and incrementally (past approaches used precollected training data with batch learning).
-For experimentation, we use Lenia, a continuous game-of-life cellular automaton.
-We study how IMGEPs algorithms enable to discover a variety of complex self-organized visual patterns.
-We compare random search and goal exploration methods with hand-defined, pretrained and online learned goal spaces.
-The results show that goal exploration methods identify more diverse patterns compared to random exploration.
-Moreover, the online learned goal spaces allow to successfully discover interesting patterns similar to the ones manually identified by human experts.
- 
-Our results exemplify the ability of IMGEPs to aid the discovery of novel structures and patterns in complex systems. We are optimistic that their application will aid the understanding and discovery of new knowledge in various domains of science and engineering.
+In many complex dynamical systems, artificial or natural, one can observe selforganization of patterns emerging from local rules. Cellular automata, like the Game of Life (GOL), have been widely used as abstract models enabling the study of various aspects of self-organization and morphogenesis, such as the emergence of spatially localized patterns. However, findings of self-organized patterns in
+such models have so far relied on manual tuning of parameters and initial states, and on the human eye to identify “interesting” patterns. In this paper, we formulate the problem of automated discovery of diverse self-organized patterns in such high-dimensional complex dynamical systems, as well as a framework for experimentation and evaluation. Using a continuous GOL as a testbed, we show that recent intrinsically-motivated machine learning algorithms (POP-IMGEPs), initially developed for learning of inverse models in robotics, can be transposed and used in this novel application area. These algorithms combine intrinsicallymotivated goal exploration and unsupervised learning of goal space representations. Goal space representations describe the “interesting” features of patterns for which diverse variations should be discovered. In particular, we compare various approaches to define and learn goal space representations from the perspective of discovering diverse spatially localized patterns. Moreover, we introduce an extension of a state-of-the-art POP-IMGEP algorithm which incrementally learns a goal representation using a deep auto-encoder, and the use of CPPN primitives for
+generating initialization parameters. We show that it is more efficient than several baselines and equally efficient as a system pre-trained on a hand-made database of patterns identified by human experts.
 
 * * *
 
@@ -28,10 +17,7 @@ This page provides further information about:
  * Lenia, the target system used for the experiments
  * Examples of patterns that could be identified with help of IMGEPs
  * A video of our software to visualize the identified patterns and goal spaces
-
-The source code to replicate the results of the paper will be added here soon.
-
-Please note that this page is currently under construction and more content will come soon!
+ * An interactive tool to visualize the different results presented in the paper
 
 * * *
 
@@ -78,8 +64,6 @@ The following video by its creator shows possible patterns that can be generated
 <a href="https://chakazul.github.io/Lenia/JavaScript/Lenia.html">
 Explore Lenia online: <small>https://chakazul.github.io/Lenia/JavaScript/Lenia.html</small> ![lenia javascript program link](https://raw.githubusercontent.com/Chakazul/Lenia/master/Screencap/JavaScript.png) </a>
 
-[comment]: # * * *
-[comment]: # ## Learning of Goal Spaces via Online Representation Learning
 
 * * *
 ### Discovered Patterns
@@ -87,29 +71,37 @@ Explore Lenia online: <small>https://chakazul.github.io/Lenia/JavaScript/Lenia.h
 The diversity, measured in number of explored bins in the parameter and a statistic space, shows that the IMGEP approaches are able to find a higher diversity of patterns although a random parameter search has a higher diversity in the parameter space.
 
 |Diversity in Parameter Space                                  | Diversity in Statistic Space                                  |
-|![](./assets/media/image/png/diversity_runparamspace_all.png) | ![](./assets/media/image/png/diversity_statisticspace_all.png)|
+|![](./assets/media/image/png/diversity_runparamspace_all_adapted.png) | ![](./assets/media/image/png/diversity_statisticspace_all_adapted.png)|
 
 | Statistic Space Diversity for Animals                             |  Statistic Space Diversity for Non-Animals                        |
-|![](./assets/media/image/png/diversity_statisticspace_animals.png) | ![](./assets/media/image/png/diversity_statisticspace_nonanimals.png)|
+|![](./assets/media/image/png/diversity_statisticspace_animals_adapted.png) | ![](./assets/media/image/png/diversity_statisticspace_nonanimals_adapted.png)|
 
 
 
-[comment]: # ### Example of discovered patterns
+The following two figures illustrate the ratio of identified pattern classes (animal, non-animal, dead) for the random exploration and for different IMGEP algorithms, and provide some examples for each class.
+Random Exploration samples parameters randomly.
+IMGEP-RGS has a goal space which uses a VAE encoder intialized with with random weights.
+IMGEP-HGS has a  goal space which uses hand-defined features.
+IMGEP-PGL and the IMGEP-OGL have a goal space which was learned via a variational autoencoder. For IMGEP-PGL, the training is done before exploration starts on a precollected dataset. For IMGEP-OGL, the training is done incrementally during the exploration.
 
-The following two figures illustrate the ratio of identified pattern classes (animal, non-animal, dead) for two IMGEP algorithms and show some examples for each class.
-The first (IMGEP-HGS) uses a hand-defined goal space and can find many non-animal patterns.
-The second (IMGEP-OGL) has a goal space which was learned via a variational autoencoder during the exploration and is able to find more animals.
-
-![](https://raw.githubusercontent.com/intrinsically-motivated-discovery/intrinsically-motivated-discovery.github.io/master/assets/media/image/png/imgep_hgs_discoveries.png)
-
-
-![](https://raw.githubusercontent.com/intrinsically-motivated-discovery/intrinsically-motivated-discovery.github.io/master/assets/media/image/png/imgep_ogl_discoveries.png)
+**Random-Exploration:**
+![](./assets/media/image/png/identified_patterns_random.png)
+**IMGEP-RGS:**
+![](./assets/media/image/png/identified_patterns_imgep_rgs.png)
+**IMGEP-HGS:**
+![](./assets/media/image/png/identified_patterns_imgep_hgs.png)
+**IMGEP-PGL:**
+![](./assets/media/image/png/identified_patterns_imgep_pgl.png)
+**IMGEP-OGL:**
+![](./assets/media/image/png/identified_patterns_imgep_ogl.png)
 
 
 
 The following video shows some example patterns that have been discovered automatically during one exploration experiment with the IMGEP-OGL algorithm:
 <iframe width="720" height="405" src="https://youtube.com/embed/qxxs_Sga1xQ" frameborder="0" allowfullscreen></iframe>
 
+<br>
+<br>
 
 #### Visualisation of Learned Goal Spaces
 
@@ -118,9 +110,25 @@ The following video shows the visualization for the IMGEP-OGL and IMGEP-HGS resu
 
 <iframe width="720" height="405" src="https://youtube.com/embed/oMh2CGb-86M" frameborder="0" allowfullscreen></iframe>
 
-<a href="https://projector.tensorflow.org/?config=https://raw.githubusercontent.com/intrinsically-motivated-discovery/intrinsically-motivated-discovery.github.io/master/assets/media/tensorboard/projector_config.json">
-Explore the results online: <small> https://projector.tensorflow.org/?config=https://raw.githubusercontent.com/intrinsically-motivated-discovery/intrinsically-motivated-discovery.github.io/master/assets/media/tensorboard/projector_config.json </small> ![tensorboard link](https://raw.githubusercontent.com/intrinsically-motivated-discovery/intrinsically-motivated-discovery.github.io/master/assets/media/tensorboard/00000/IMGEP-OGL/sprite.png) </a>
+<br>
+<br>
 
+#### Interactive tool to explore our results
+We provide access to all the discovered patterns for all the repetitions of the different IMGEP algorithms from the main paper. For each algorithm, the projections are computed from the embeddings in their respective goal spaces. 
+
+Click on the link below to discover the results. You will be redirected toward tensorflow's embedding projector tool where we loaded our results. 
+
+From there, you can browse the different discoveries and:
+* select the desired IMGEP algorithm and repetition in the DATA column on the left
+* filter the results by label by:
+  * entering the label name ("animal", "other", "dead") in the *Search* entry in the right column
+  * clicking on the *Isolate Selection* button above
+  * double-click on the screen to remove the labels
+* view the results under different projections: *UMAP*, *T-SNE* or *PCA* in the bottom-left menu
+
+
+<a href="https://projector.tensorflow.org/?config=https://raw.githubusercontent.com/intrinsically-motivated-discovery/intrinsically-motivated-discovery.github.io/master/assets/media/tensorboard/projector_config.json">
+Explore the results online: <small> https://projector.tensorflow.org/?config=https://raw.githubusercontent.com/intrinsically-motivated-discovery/intrinsically-motivated-discovery.github.io/master/assets/media/tensorboard/projector_config.json </small> <img src="./assets/media/image/gif/tensorflow_projector_view_small.gif" alt="tensorflow projector link" style="width:720px;"/> </a>
 * * *
 ### Acknowledgement
 We would like to thank Bert Chan for the valuable discussions and for providing the source code of Lenia. 
