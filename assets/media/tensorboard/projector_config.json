@@ -1,7 +1,7 @@
 {
   "embeddings": [
     {
-      "tensorName": "IMGEP-RGS:00000",
+      "tensorName": "IMGEP-RGS: rep 0",
       "tensorShape": [5000, 8],
       "tensorPath": "https://raw.githubusercontent.com/intrinsically-motivated-discovery/intrinsically-motivated-discovery.github.io/master/assets/media/tensorboard/00000/IMGEP-RGS/tensors.tsv",
       "metadataPath": "https://raw.githubusercontent.com/intrinsically-motivated-discovery/intrinsically-motivated-discovery.github.io/master/assets/media/tensorboard/00000/IMGEP-RGS/metadata.tsv",
@@ -14,7 +14,7 @@
       }
     },
     {
-      "tensorName": "IMGEP-RGS:00001",
+      "tensorName": "IMGEP-RGS: rep 1",
       "tensorShape": [5000, 8],
       "tensorPath": "https://raw.githubusercontent.com/intrinsically-motivated-discovery/intrinsically-motivated-discovery.github.io/master/assets/media/tensorboard/00001/IMGEP-RGS/tensors.tsv",
       "metadataPath": "https://raw.githubusercontent.com/intrinsically-motivated-discovery/intrinsically-motivated-discovery.github.io/master/assets/media/tensorboard/00001/IMGEP-RGS/metadata.tsv",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "tensorName": "IMGEP-RGS:00002",
+      "tensorName": "IMGEP-RGS: rep 2",
       "tensorShape": [5000, 8],
       "tensorPath": "https://raw.githubusercontent.com/intrinsically-motivated-discovery/intrinsically-motivated-discovery.github.io/master/assets/media/tensorboard/00002/IMGEP-RGS/tensors.tsv",
       "metadataPath": "https://raw.githubusercontent.com/intrinsically-motivated-discovery/intrinsically-motivated-discovery.github.io/master/assets/media/tensorboard/00002/IMGEP-RGS/metadata.tsv",
@@ -40,7 +40,7 @@
       }
     },
     {
-      "tensorName": "IMGEP-RGS:00003",
+      "tensorName": "IMGEP-RGS: rep 3",
       "tensorShape": [5000, 8],
       "tensorPath": "https://raw.githubusercontent.com/intrinsically-motivated-discovery/intrinsically-motivated-discovery.github.io/master/assets/media/tensorboard/00003/IMGEP-RGS/tensors.tsv",
       "metadataPath": "https://raw.githubusercontent.com/intrinsically-motivated-discovery/intrinsically-motivated-discovery.github.io/master/assets/media/tensorboard/00003/IMGEP-RGS/metadata.tsv",
@@ -53,7 +53,7 @@
       }
     },
     {
-      "tensorName": "IMGEP-RGS:00004",
+      "tensorName": "IMGEP-RGS: rep 4",
       "tensorShape": [5000, 8],
       "tensorPath": "https://raw.githubusercontent.com/intrinsically-motivated-discovery/intrinsically-motivated-discovery.github.io/master/assets/media/tensorboard/00004/IMGEP-RGS/tensors.tsv",
       "metadataPath": "https://raw.githubusercontent.com/intrinsically-motivated-discovery/intrinsically-motivated-discovery.github.io/master/assets/media/tensorboard/00004/IMGEP-RGS/metadata.tsv",
@@ -66,7 +66,7 @@
       }
     },
     {
-      "tensorName": "IMGEP-RGS:00005",
+      "tensorName": "IMGEP-RGS: rep 5",
       "tensorShape": [5000, 8],
       "tensorPath": "https://raw.githubusercontent.com/intrinsically-motivated-discovery/intrinsically-motivated-discovery.github.io/master/assets/media/tensorboard/00005/IMGEP-RGS/tensors.tsv",
       "metadataPath": "https://raw.githubusercontent.com/intrinsically-motivated-discovery/intrinsically-motivated-discovery.github.io/master/assets/media/tensorboard/00005/IMGEP-RGS/metadata.tsv",
@@ -79,7 +79,7 @@
       }
     },
     {
-      "tensorName": "IMGEP-RGS:00006",
+      "tensorName": "IMGEP-RGS: rep 6",
       "tensorShape": [5000, 8],
       "tensorPath": "https://raw.githubusercontent.com/intrinsically-motivated-discovery/intrinsically-motivated-discovery.github.io/master/assets/media/tensorboard/00006/IMGEP-RGS/tensors.tsv",
       "metadataPath": "https://raw.githubusercontent.com/intrinsically-motivated-discovery/intrinsically-motivated-discovery.github.io/master/assets/media/tensorboard/00006/IMGEP-RGS/metadata.tsv",
@@ -92,7 +92,7 @@
       }
     },
     {
-      "tensorName": "IMGEP-RGS:00007",
+      "tensorName": "IMGEP-RGS: rep 7",
       "tensorShape": [5000, 8],
       "tensorPath": "https://raw.githubusercontent.com/intrinsically-motivated-discovery/intrinsically-motivated-discovery.github.io/master/assets/media/tensorboard/00007/IMGEP-RGS/tensors.tsv",
       "metadataPath": "https://raw.githubusercontent.com/intrinsically-motivated-discovery/intrinsically-motivated-discovery.github.io/master/assets/media/tensorboard/00007/IMGEP-RGS/metadata.tsv",
@@ -105,7 +105,7 @@
       }
     },
     {
-      "tensorName": "IMGEP-RGS:00008",
+      "tensorName": "IMGEP-RGS: rep 8",
       "tensorShape": [5000, 8],
       "tensorPath": "https://raw.githubusercontent.com/intrinsically-motivated-discovery/intrinsically-motivated-discovery.github.io/master/assets/media/tensorboard/00008/IMGEP-RGS/tensors.tsv",
       "metadataPath": "https://raw.githubusercontent.com/intrinsically-motivated-discovery/intrinsically-motivated-discovery.github.io/master/assets/media/tensorboard/00008/IMGEP-RGS/metadata.tsv",
@@ -118,7 +118,7 @@
       }
     },
     {
-      "tensorName": "IMGEP-RGS:00009",
+      "tensorName": "IMGEP-RGS: rep 9",
       "tensorShape": [5000, 8],
       "tensorPath": "https://raw.githubusercontent.com/intrinsically-motivated-discovery/intrinsically-motivated-discovery.github.io/master/assets/media/tensorboard/00009/IMGEP-RGS/tensors.tsv",
       "metadataPath": "https://raw.githubusercontent.com/intrinsically-motivated-discovery/intrinsically-motivated-discovery.github.io/master/assets/media/tensorboard/00009/IMGEP-RGS/metadata.tsv",
@@ -131,8 +131,8 @@
       }
     },
     {
-      "tensorName": "IMGEP-HGS:00000",
-      "tensorShape": [5000, 8],
+      "tensorName": "IMGEP-HGS: rep 0",
+      "tensorShape": [5000, 5],
       "tensorPath": "https://raw.githubusercontent.com/intrinsically-motivated-discovery/intrinsically-motivated-discovery.github.io/master/assets/media/tensorboard/00000/IMGEP-HGS/tensors.tsv",
       "metadataPath": "https://raw.githubusercontent.com/intrinsically-motivated-discovery/intrinsically-motivated-discovery.github.io/master/assets/media/tensorboard/00000/IMGEP-HGS/metadata.tsv",
       "sprite": {
@@ -144,8 +144,8 @@
       }
     },
     {
-      "tensorName": "IMGEP-HGS:00001",
-      "tensorShape": [5000, 8],
+      "tensorName": "IMGEP-HGS: rep 1",
+      "tensorShape": [5000, 5],
       "tensorPath": "https://raw.githubusercontent.com/intrinsically-motivated-discovery/intrinsically-motivated-discovery.github.io/master/assets/media/tensorboard/00001/IMGEP-HGS/tensors.tsv",
       "metadataPath": "https://raw.githubusercontent.com/intrinsically-motivated-discovery/intrinsically-motivated-discovery.github.io/master/assets/media/tensorboard/00001/IMGEP-HGS/metadata.tsv",
       "sprite": {
@@ -157,8 +157,8 @@
       }
     },
     {
-      "tensorName": "IMGEP-HGS:00002",
-      "tensorShape": [5000, 8],
+      "tensorName": "IMGEP-HGS: rep 2",
+      "tensorShape": [5000, 5],
       "tensorPath": "https://raw.githubusercontent.com/intrinsically-motivated-discovery/intrinsically-motivated-discovery.github.io/master/assets/media/tensorboard/00002/IMGEP-HGS/tensors.tsv",
       "metadataPath": "https://raw.githubusercontent.com/intrinsically-motivated-discovery/intrinsically-motivated-discovery.github.io/master/assets/media/tensorboard/00002/IMGEP-HGS/metadata.tsv",
       "sprite": {
@@ -170,8 +170,8 @@
       }
     },
     {
-      "tensorName": "IMGEP-HGS:00003",
-      "tensorShape": [5000, 8],
+      "tensorName": "IMGEP-HGS: rep 3",
+      "tensorShape": [5000, 5],
       "tensorPath": "https://raw.githubusercontent.com/intrinsically-motivated-discovery/intrinsically-motivated-discovery.github.io/master/assets/media/tensorboard/00003/IMGEP-HGS/tensors.tsv",
       "metadataPath": "https://raw.githubusercontent.com/intrinsically-motivated-discovery/intrinsically-motivated-discovery.github.io/master/assets/media/tensorboard/00003/IMGEP-HGS/metadata.tsv",
       "sprite": {
@@ -183,8 +183,8 @@
       }
     },
     {
-      "tensorName": "IMGEP-HGS:00004",
-      "tensorShape": [5000, 8],
+      "tensorName": "IMGEP-HGS: rep 4",
+      "tensorShape": [5000, 5],
       "tensorPath": "https://raw.githubusercontent.com/intrinsically-motivated-discovery/intrinsically-motivated-discovery.github.io/master/assets/media/tensorboard/00004/IMGEP-HGS/tensors.tsv",
       "metadataPath": "https://raw.githubusercontent.com/intrinsically-motivated-discovery/intrinsically-motivated-discovery.github.io/master/assets/media/tensorboard/00004/IMGEP-HGS/metadata.tsv",
       "sprite": {
@@ -196,8 +196,8 @@
       }
     },
     {
-      "tensorName": "IMGEP-HGS:00005",
-      "tensorShape": [5000, 8],
+      "tensorName": "IMGEP-HGS: rep 5",
+      "tensorShape": [5000, 5],
       "tensorPath": "https://raw.githubusercontent.com/intrinsically-motivated-discovery/intrinsically-motivated-discovery.github.io/master/assets/media/tensorboard/00005/IMGEP-HGS/tensors.tsv",
       "metadataPath": "https://raw.githubusercontent.com/intrinsically-motivated-discovery/intrinsically-motivated-discovery.github.io/master/assets/media/tensorboard/00005/IMGEP-HGS/metadata.tsv",
       "sprite": {
@@ -209,8 +209,8 @@
       }
     },
     {
-      "tensorName": "IMGEP-HGS:00006",
-      "tensorShape": [5000, 8],
+      "tensorName": "IMGEP-HGS: rep 6",
+      "tensorShape": [5000, 5],
       "tensorPath": "https://raw.githubusercontent.com/intrinsically-motivated-discovery/intrinsically-motivated-discovery.github.io/master/assets/media/tensorboard/00006/IMGEP-HGS/tensors.tsv",
       "metadataPath": "https://raw.githubusercontent.com/intrinsically-motivated-discovery/intrinsically-motivated-discovery.github.io/master/assets/media/tensorboard/00006/IMGEP-HGS/metadata.tsv",
       "sprite": {
@@ -222,8 +222,8 @@
       }
     },
     {
-      "tensorName": "IMGEP-HGS:00007",
-      "tensorShape": [5000, 8],
+      "tensorName": "IMGEP-HGS: rep 7",
+      "tensorShape": [5000, 5],
       "tensorPath": "https://raw.githubusercontent.com/intrinsically-motivated-discovery/intrinsically-motivated-discovery.github.io/master/assets/media/tensorboard/00007/IMGEP-HGS/tensors.tsv",
       "metadataPath": "https://raw.githubusercontent.com/intrinsically-motivated-discovery/intrinsically-motivated-discovery.github.io/master/assets/media/tensorboard/00007/IMGEP-HGS/metadata.tsv",
       "sprite": {
@@ -235,8 +235,8 @@
       }
     },
     {
-      "tensorName": "IMGEP-HGS:00008",
-      "tensorShape": [5000, 8],
+      "tensorName": "IMGEP-HGS: rep 8",
+      "tensorShape": [5000, 5],
       "tensorPath": "https://raw.githubusercontent.com/intrinsically-motivated-discovery/intrinsically-motivated-discovery.github.io/master/assets/media/tensorboard/00008/IMGEP-HGS/tensors.tsv",
       "metadataPath": "https://raw.githubusercontent.com/intrinsically-motivated-discovery/intrinsically-motivated-discovery.github.io/master/assets/media/tensorboard/00008/IMGEP-HGS/metadata.tsv",
       "sprite": {
@@ -248,8 +248,8 @@
       }
     },
     {
-      "tensorName": "IMGEP-HGS:00009",
-      "tensorShape": [5000, 8],
+      "tensorName": "IMGEP-HGS: rep 9",
+      "tensorShape": [5000, 5],
       "tensorPath": "https://raw.githubusercontent.com/intrinsically-motivated-discovery/intrinsically-motivated-discovery.github.io/master/assets/media/tensorboard/00009/IMGEP-HGS/tensors.tsv",
       "metadataPath": "https://raw.githubusercontent.com/intrinsically-motivated-discovery/intrinsically-motivated-discovery.github.io/master/assets/media/tensorboard/00009/IMGEP-HGS/metadata.tsv",
       "sprite": {
@@ -261,7 +261,7 @@
       }
     },
     {
-      "tensorName": "IMGEP-PGL:00000",
+      "tensorName": "IMGEP-PGL: rep 0",
       "tensorShape": [5000, 8],
       "tensorPath": "https://raw.githubusercontent.com/intrinsically-motivated-discovery/intrinsically-motivated-discovery.github.io/master/assets/media/tensorboard/00000/IMGEP-PGL/tensors.tsv",
       "metadataPath": "https://raw.githubusercontent.com/intrinsically-motivated-discovery/intrinsically-motivated-discovery.github.io/master/assets/media/tensorboard/00000/IMGEP-PGL/metadata.tsv",
@@ -274,7 +274,7 @@
       }
     },
     {
-      "tensorName": "IMGEP-PGL:00001",
+      "tensorName": "IMGEP-PGL: rep 1",
       "tensorShape": [5000, 8],
       "tensorPath": "https://raw.githubusercontent.com/intrinsically-motivated-discovery/intrinsically-motivated-discovery.github.io/master/assets/media/tensorboard/00001/IMGEP-PGL/tensors.tsv",
       "metadataPath": "https://raw.githubusercontent.com/intrinsically-motivated-discovery/intrinsically-motivated-discovery.github.io/master/assets/media/tensorboard/00001/IMGEP-PGL/metadata.tsv",
@@ -287,7 +287,7 @@
       }
     },
     {
-      "tensorName": "IMGEP-PGL:00002",
+      "tensorName": "IMGEP-PGL: rep 2",
       "tensorShape": [5000, 8],
       "tensorPath": "https://raw.githubusercontent.com/intrinsically-motivated-discovery/intrinsically-motivated-discovery.github.io/master/assets/media/tensorboard/00002/IMGEP-PGL/tensors.tsv",
       "metadataPath": "https://raw.githubusercontent.com/intrinsically-motivated-discovery/intrinsically-motivated-discovery.github.io/master/assets/media/tensorboard/00002/IMGEP-PGL/metadata.tsv",
@@ -300,7 +300,7 @@
       }
     },
     {
-      "tensorName": "IMGEP-PGL:00003",
+      "tensorName": "IMGEP-PGL: rep 3",
       "tensorShape": [5000, 8],
       "tensorPath": "https://raw.githubusercontent.com/intrinsically-motivated-discovery/intrinsically-motivated-discovery.github.io/master/assets/media/tensorboard/00003/IMGEP-PGL/tensors.tsv",
       "metadataPath": "https://raw.githubusercontent.com/intrinsically-motivated-discovery/intrinsically-motivated-discovery.github.io/master/assets/media/tensorboard/00003/IMGEP-PGL/metadata.tsv",
@@ -313,7 +313,7 @@
       }
     },
     {
-      "tensorName": "IMGEP-PGL:00004",
+      "tensorName": "IMGEP-PGL: rep 4",
       "tensorShape": [5000, 8],
       "tensorPath": "https://raw.githubusercontent.com/intrinsically-motivated-discovery/intrinsically-motivated-discovery.github.io/master/assets/media/tensorboard/00004/IMGEP-PGL/tensors.tsv",
       "metadataPath": "https://raw.githubusercontent.com/intrinsically-motivated-discovery/intrinsically-motivated-discovery.github.io/master/assets/media/tensorboard/00004/IMGEP-PGL/metadata.tsv",
@@ -326,7 +326,7 @@
       }
     },
     {
-      "tensorName": "IMGEP-PGL:00005",
+      "tensorName": "IMGEP-PGL: rep 5",
       "tensorShape": [5000, 8],
       "tensorPath": "https://raw.githubusercontent.com/intrinsically-motivated-discovery/intrinsically-motivated-discovery.github.io/master/assets/media/tensorboard/00005/IMGEP-PGL/tensors.tsv",
       "metadataPath": "https://raw.githubusercontent.com/intrinsically-motivated-discovery/intrinsically-motivated-discovery.github.io/master/assets/media/tensorboard/00005/IMGEP-PGL/metadata.tsv",
@@ -339,7 +339,7 @@
       }
     },
     {
-      "tensorName": "IMGEP-PGL:00006",
+      "tensorName": "IMGEP-PGL: rep 6",
       "tensorShape": [5000, 8],
       "tensorPath": "https://raw.githubusercontent.com/intrinsically-motivated-discovery/intrinsically-motivated-discovery.github.io/master/assets/media/tensorboard/00006/IMGEP-PGL/tensors.tsv",
       "metadataPath": "https://raw.githubusercontent.com/intrinsically-motivated-discovery/intrinsically-motivated-discovery.github.io/master/assets/media/tensorboard/00006/IMGEP-PGL/metadata.tsv",
@@ -352,7 +352,7 @@
       }
     },
     {
-      "tensorName": "IMGEP-PGL:00007",
+      "tensorName": "IMGEP-PGL: rep 7",
       "tensorShape": [5000, 8],
       "tensorPath": "https://raw.githubusercontent.com/intrinsically-motivated-discovery/intrinsically-motivated-discovery.github.io/master/assets/media/tensorboard/00007/IMGEP-PGL/tensors.tsv",
       "metadataPath": "https://raw.githubusercontent.com/intrinsically-motivated-discovery/intrinsically-motivated-discovery.github.io/master/assets/media/tensorboard/00007/IMGEP-PGL/metadata.tsv",
@@ -365,7 +365,7 @@
       }
     },
     {
-      "tensorName": "IMGEP-PGL:00008",
+      "tensorName": "IMGEP-PGL: rep 8",
       "tensorShape": [5000, 8],
       "tensorPath": "https://raw.githubusercontent.com/intrinsically-motivated-discovery/intrinsically-motivated-discovery.github.io/master/assets/media/tensorboard/00008/IMGEP-PGL/tensors.tsv",
       "metadataPath": "https://raw.githubusercontent.com/intrinsically-motivated-discovery/intrinsically-motivated-discovery.github.io/master/assets/media/tensorboard/00008/IMGEP-PGL/metadata.tsv",
@@ -378,7 +378,7 @@
       }
     },
     {
-      "tensorName": "IMGEP-PGL:00009",
+      "tensorName": "IMGEP-PGL: rep 9",
       "tensorShape": [5000, 8],
       "tensorPath": "https://raw.githubusercontent.com/intrinsically-motivated-discovery/intrinsically-motivated-discovery.github.io/master/assets/media/tensorboard/00009/IMGEP-PGL/tensors.tsv",
       "metadataPath": "https://raw.githubusercontent.com/intrinsically-motivated-discovery/intrinsically-motivated-discovery.github.io/master/assets/media/tensorboard/00009/IMGEP-PGL/metadata.tsv",
@@ -391,7 +391,7 @@
       }
     },
     {
-      "tensorName": "IMGEP-OGL:00000",
+      "tensorName": "IMGEP-OGL: rep 0",
       "tensorShape": [5000, 8],
       "tensorPath": "https://raw.githubusercontent.com/intrinsically-motivated-discovery/intrinsically-motivated-discovery.github.io/master/assets/media/tensorboard/00000/IMGEP-OGL/tensors.tsv",
       "metadataPath": "https://raw.githubusercontent.com/intrinsically-motivated-discovery/intrinsically-motivated-discovery.github.io/master/assets/media/tensorboard/00000/IMGEP-OGL/metadata.tsv",
@@ -404,7 +404,7 @@
       }
     },
     {
-      "tensorName": "IMGEP-OGL:00001",
+      "tensorName": "IMGEP-OGL: rep 1",
       "tensorShape": [5000, 8],
       "tensorPath": "https://raw.githubusercontent.com/intrinsically-motivated-discovery/intrinsically-motivated-discovery.github.io/master/assets/media/tensorboard/00001/IMGEP-OGL/tensors.tsv",
       "metadataPath": "https://raw.githubusercontent.com/intrinsically-motivated-discovery/intrinsically-motivated-discovery.github.io/master/assets/media/tensorboard/00001/IMGEP-OGL/metadata.tsv",
@@ -417,7 +417,7 @@
       }
     },
     {
-      "tensorName": "IMGEP-OGL:00002",
+      "tensorName": "IMGEP-OGL: rep 2",
       "tensorShape": [5000, 8],
       "tensorPath": "https://raw.githubusercontent.com/intrinsically-motivated-discovery/intrinsically-motivated-discovery.github.io/master/assets/media/tensorboard/00002/IMGEP-OGL/tensors.tsv",
       "metadataPath": "https://raw.githubusercontent.com/intrinsically-motivated-discovery/intrinsically-motivated-discovery.github.io/master/assets/media/tensorboard/00002/IMGEP-OGL/metadata.tsv",
@@ -430,7 +430,7 @@
       }
     },
     {
-      "tensorName": "IMGEP-OGL:00003",
+      "tensorName": "IMGEP-OGL: rep 3",
       "tensorShape": [5000, 8],
       "tensorPath": "https://raw.githubusercontent.com/intrinsically-motivated-discovery/intrinsically-motivated-discovery.github.io/master/assets/media/tensorboard/00003/IMGEP-OGL/tensors.tsv",
       "metadataPath": "https://raw.githubusercontent.com/intrinsically-motivated-discovery/intrinsically-motivated-discovery.github.io/master/assets/media/tensorboard/00003/IMGEP-OGL/metadata.tsv",
@@ -443,7 +443,7 @@
       }
     },
     {
-      "tensorName": "IMGEP-OGL:00004",
+      "tensorName": "IMGEP-OGL: rep 4",
       "tensorShape": [5000, 8],
       "tensorPath": "https://raw.githubusercontent.com/intrinsically-motivated-discovery/intrinsically-motivated-discovery.github.io/master/assets/media/tensorboard/00004/IMGEP-OGL/tensors.tsv",
       "metadataPath": "https://raw.githubusercontent.com/intrinsically-motivated-discovery/intrinsically-motivated-discovery.github.io/master/assets/media/tensorboard/00004/IMGEP-OGL/metadata.tsv",
@@ -456,7 +456,7 @@
       }
     },
     {
-      "tensorName": "IMGEP-OGL:00005",
+      "tensorName": "IMGEP-OGL: rep 5",
       "tensorShape": [5000, 8],
       "tensorPath": "https://raw.githubusercontent.com/intrinsically-motivated-discovery/intrinsically-motivated-discovery.github.io/master/assets/media/tensorboard/00005/IMGEP-OGL/tensors.tsv",
       "metadataPath": "https://raw.githubusercontent.com/intrinsically-motivated-discovery/intrinsically-motivated-discovery.github.io/master/assets/media/tensorboard/00005/IMGEP-OGL/metadata.tsv",
@@ -469,7 +469,7 @@
       }
     },
     {
-      "tensorName": "IMGEP-OGL:00006",
+      "tensorName": "IMGEP-OGL: rep 6",
       "tensorShape": [5000, 8],
       "tensorPath": "https://raw.githubusercontent.com/intrinsically-motivated-discovery/intrinsically-motivated-discovery.github.io/master/assets/media/tensorboard/00006/IMGEP-OGL/tensors.tsv",
       "metadataPath": "https://raw.githubusercontent.com/intrinsically-motivated-discovery/intrinsically-motivated-discovery.github.io/master/assets/media/tensorboard/00006/IMGEP-OGL/metadata.tsv",
@@ -482,7 +482,7 @@
       }
     },
     {
-      "tensorName": "IMGEP-OGL:00007",
+      "tensorName": "IMGEP-OGL: rep 7",
       "tensorShape": [5000, 8],
       "tensorPath": "https://raw.githubusercontent.com/intrinsically-motivated-discovery/intrinsically-motivated-discovery.github.io/master/assets/media/tensorboard/00007/IMGEP-OGL/tensors.tsv",
       "metadataPath": "https://raw.githubusercontent.com/intrinsically-motivated-discovery/intrinsically-motivated-discovery.github.io/master/assets/media/tensorboard/00007/IMGEP-OGL/metadata.tsv",
@@ -495,7 +495,7 @@
       }
     },
     {
-      "tensorName": "IMGEP-OGL:00008",
+      "tensorName": "IMGEP-OGL: rep 8",
       "tensorShape": [5000, 8],
       "tensorPath": "https://raw.githubusercontent.com/intrinsically-motivated-discovery/intrinsically-motivated-discovery.github.io/master/assets/media/tensorboard/00008/IMGEP-OGL/tensors.tsv",
       "metadataPath": "https://raw.githubusercontent.com/intrinsically-motivated-discovery/intrinsically-motivated-discovery.github.io/master/assets/media/tensorboard/00008/IMGEP-OGL/metadata.tsv",
@@ -508,7 +508,7 @@
       }
     },
     {
-      "tensorName": "IMGEP-OGL:00009",
+      "tensorName": "IMGEP-OGL: rep 9",
       "tensorShape": [5000, 8],
       "tensorPath": "https://raw.githubusercontent.com/intrinsically-motivated-discovery/intrinsically-motivated-discovery.github.io/master/assets/media/tensorboard/00009/IMGEP-OGL/tensors.tsv",
       "metadataPath": "https://raw.githubusercontent.com/intrinsically-motivated-discovery/intrinsically-motivated-discovery.github.io/master/assets/media/tensorboard/00009/IMGEP-OGL/metadata.tsv",
