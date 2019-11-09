@@ -100,6 +100,8 @@ IMGEP-PGL and the IMGEP-OGL have a goal space which was learned via a variationa
 The following video shows some example patterns that have been discovered automatically during one exploration experiment with the IMGEP-OGL algorithm:
 <iframe width="720" height="405" src="https://youtube.com/embed/qxxs_Sga1xQ" frameborder="0" allowfullscreen></iframe>
 
+A dataset with all discovered animal and non-animal patterns can be download [here](https://drive.google.com/file/d/1ZhVG2_uTLaT4SMqj0wKTKn568Y2XaypU/view?usp=sharing) (1.8GB).
+
 <br>
 <br>
 
