@@ -68,7 +68,17 @@ Explore Lenia online: <small>https://chakazul.github.io/Lenia/JavaScript/Lenia.h
 * * *
 ### Discovered Patterns
 
-The diversity, measured in number of explored bins in the parameter and a statistic space, shows that the IMGEP approaches are able to find a higher diversity of patterns although a random parameter search has a higher diversity in the parameter space.
+We differentiate between dead, animal and non-animal patterns in Lenia. 
+A pattern is dead if the activity of all cells is either 0 or 1.
+Alive patterns are separated into animals and non-animals. 
+Animals resemble microscopic animals such as bacteria. 
+We classify all patterns as animals if they have connected areas of positive activity which are finite, i.e. which do not infinitely cross several borders (Lenia's borders are connected and form a ball). 
+All other patterns are non-animals whose activity usually spreads over the whole state space.
+
+We compared the algorithms by the diversity of patterns they discovered.
+The diversity is measured by the number of explored bins in the parameter and a statistic space.
+The following figures compare the diversity between the different algorithms.
+They show that IMGEP approaches are able to find a higher diversity of patterns, although a random parameter search has a higher diversity in the parameter space.
 
 |Diversity in Parameter Space                                  | Diversity in Statistic Space                                  |
 |![](./assets/media/image/png/diversity_runparamspace_all_adapted.png) | ![](./assets/media/image/png/diversity_statisticspace_all_adapted.png)|
@@ -76,13 +86,15 @@ The diversity, measured in number of explored bins in the parameter and a statis
 | Statistic Space Diversity for Animals                             |  Statistic Space Diversity for Non-Animals                        |
 |![](./assets/media/image/png/diversity_statisticspace_animals_adapted.png) | ![](./assets/media/image/png/diversity_statisticspace_nonanimals_adapted.png)|
 
-
-
-The following two figures illustrate the ratio of identified pattern classes (animal, non-animal, dead) for the random exploration and for different IMGEP algorithms, and provide some examples for each class.
 Random Exploration samples parameters randomly.
 IMGEP-RGS has a goal space which uses a VAE encoder intialized with with random weights.
 IMGEP-HGS has a  goal space which uses hand-defined features.
-IMGEP-PGL and the IMGEP-OGL have a goal space which was learned via a variational autoencoder. For IMGEP-PGL, the training is done before exploration starts on a precollected dataset. For IMGEP-OGL, the training is done incrementally during the exploration.
+IMGEP-PGL and the IMGEP-OGL have a goal space which was learned via a variational autoencoder. 
+For IMGEP-PGL, the training is done before exploration starts on a precollected dataset. 
+For IMGEP-OGL, the training is done incrementally during the exploration.
+
+The following figures show examples of discovered patterns of the different algorithms.
+A dataset with all discovered animal and non-animal patterns can be download [here](https://drive.google.com/file/d/1ZhVG2_uTLaT4SMqj0wKTKn568Y2XaypU/view?usp=sharing) (1.8GB).
 
 **Random-Exploration:**
 ![](./assets/media/image/png/identified_patterns_random.png)
@@ -96,11 +108,8 @@ IMGEP-PGL and the IMGEP-OGL have a goal space which was learned via a variationa
 ![](./assets/media/image/png/identified_patterns_imgep_ogl.png)
 
 
-
 The following video shows some example patterns that have been discovered automatically during one exploration experiment with the IMGEP-OGL algorithm:
 <iframe width="720" height="405" src="https://youtube.com/embed/qxxs_Sga1xQ" frameborder="0" allowfullscreen></iframe>
-
-A dataset with all discovered animal and non-animal patterns can be download [here](https://drive.google.com/file/d/1ZhVG2_uTLaT4SMqj0wKTKn568Y2XaypU/view?usp=sharing) (1.8GB).
 
 <br>
 <br>
