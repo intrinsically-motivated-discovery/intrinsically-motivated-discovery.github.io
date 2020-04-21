@@ -3,10 +3,10 @@
     {
       "tensorName": "IMGEP-RGS",
       "tensorShape": [5000, 8],
-      "tensorPath": "https://raw.githubusercontent.com/intrinsically-motivated-discovery/intrinsically-motivated-discovery.github.io/master/assets/media/tensorboard/imgep_rgs_repetition_000004/tensors.tsv",
-      "metadataPath": "https://raw.githubusercontent.com/intrinsically-motivated-discovery/intrinsically-motivated-discovery.github.io/master/assets/media/tensorboard/imgep_rgs_repetition_000004/metadata.tsv",
+      "tensorPath": "https://raw.githubusercontent.com/intrinsically-motivated-discovery/intrinsically-motivated-discovery.github.io/master/assets/media/tensorboard/imgep_rgs_repetition_000000/tensors.tsv",
+      "metadataPath": "https://raw.githubusercontent.com/intrinsically-motivated-discovery/intrinsically-motivated-discovery.github.io/master/assets/media/tensorboard/imgep_rgs_repetition_000000/metadata.tsv",
       "sprite": {
-        "imagePath": "https://raw.githubusercontent.com/intrinsically-motivated-discovery/intrinsically-motivated-discovery.github.io/master/assets/media/tensorboard/imgep_rgs_repetition_000004/sprite.png",
+        "imagePath": "https://raw.githubusercontent.com/intrinsically-motivated-discovery/intrinsically-motivated-discovery.github.io/master/assets/media/tensorboard/imgep_rgs_repetition_000000/sprite.png",
         "singleImageDim": [
           64,
           64
